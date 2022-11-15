@@ -94,9 +94,19 @@ var ShopObject = function(price, onPurchase, priceInc, name, desc, purch_desc, i
     this.amount=0;
 }
 
-for (let i = 0; i < 10; i++) {
-    Engine.shop.push(new ShopObject(i**i,function(){Engine._coin_inc_ps+=9999}, 1.2, "TestItem"+i, 'test_item','e',i))
-}
+let s_id = 0;
+
+Engine.shop.push(new ShopObject(
+    price,
+    function(){
+    //purchase stuff
+
+    },
+    princeIncrement,
+    name,
+    description,
+    purchaseDescription
+    ,id++));
 
 window.onload = function() {
     Engine._ld_shop();
