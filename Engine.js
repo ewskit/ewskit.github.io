@@ -103,7 +103,7 @@ Engine.shop.push(new ShopObject(
 
     },
     princeIncrement,
-    name,
+    grandfather,
     description,
     purchaseDescription
     ,id++));
