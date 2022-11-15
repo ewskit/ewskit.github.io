@@ -104,8 +104,8 @@ Engine.shop.push(new ShopObject(
     },
     princeIncrement = 10000,
     name = "grandpa",
-    description,
-    purchaseDescription
+    description = "null",
+    purchaseDescription = "null"
     ,id++));
 
 window.onload = function() {
