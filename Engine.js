@@ -97,13 +97,13 @@ var ShopObject = function(price, onPurchase, priceInc, name, desc, purch_desc, i
 let s_id = 0;
 
 Engine.shop.push(new ShopObject(
-    price,
+    price = 10000,
     function(){
     //purchase stuff
 
     },
-    princeIncrement,
-    grandfather,
+    princeIncrement = 10000,
+    name = "grandpa",
     description,
     purchaseDescription
     ,id++));
