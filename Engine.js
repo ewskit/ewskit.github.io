@@ -101,13 +101,13 @@ Engine.shop.push(new ShopObject(
     function(){
     //purchase stuff
 
-    
+    },
     princeIncrement = 10000,
     name = "grandpa",
     description = "null",
     purchaseDescription = "null"
     ,id++));
-    },
+    
 window.onload = function() {
     Engine._ld_shop();
 }
