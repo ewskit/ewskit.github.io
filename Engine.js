@@ -103,10 +103,10 @@ Engine.shop.push(new ShopObject(
 
     },
     10000,
-    grandpa,
-    hes old,
-    hes old
-    ,id++));
+    "grandpa",
+    "hes old",
+    "hes old",
+    id++));
     
 window.onload = function() {
     Engine._ld_shop();
